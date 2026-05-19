@@ -1,16 +1,91 @@
-# React + Vite
+# MasonDev 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MasonDev is a smart networking platform built for students and developers to connect, collaborate, showcase projects, and grow professionally through technology and community interaction.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+#  Project Vision
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+MasonDev aims to create a modern ecosystem where:
+- Students can network with developers
+- Developers can collaborate on projects
+- Users can showcase their skills
+- Communities can grow through technology
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+#  Features
+
+## Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- Google OAuth Login
+
+##  Frontend
+- Responsive UI
+- Modern Design
+- React Routing
+- Dashboard Navigation
+- Tailwind CSS Styling
+
+## Backend
+- REST API Architecture
+- MongoDB Integration
+- User Management
+- Authentication APIs
+
+## Testing & CI/CD
+- Vitest Testing
+- GitHub Actions Workflow
+- Automated Build Pipeline
+
+---
+
+#  Tech Stack
+
+## Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+## Backend
+- MongoDB
+- Mongoose
+
+## Authentication
+- JWT
+- Google OAuth 2.0
+
+## Testing & Deployment
+- Vitest
+- GitHub Actions
+- Render
+
+---
+
+#  Project Structure
+
+``bash
+MasonDev/
+
+-backend/
+  -config/
+ - models/
+  -routes/
+  -middleware/
+  -server.js
+
+ src/
+ components/
+ -context/
+ -pages/
+ -services/
+ -tests/
+
+-.github/
+   -workflows/
+
+-README.md
